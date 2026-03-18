@@ -8,40 +8,41 @@ body {
 
 h1 {
   font-size: 56px;
-  font-weight: 700;
-  line-height: 60px;
-  letter-spacing: 2%;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
 }
 
 h2 {
   font-size: 36px;
-  font-weight: 700;
-  line-height: 40px;
-  letter-spacing: 2%;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
 }
 
 h3 {
   font-size: 20px;
-  line-height: 24px;
-  letter-spacing: 2%;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
 
 ul,
 ol {
   list-style-type: none;
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-left: 0;
+  margin: 0;
 }
 
 a {
   text-decoration: none;
   color: currentColor;
-}
-
-img {
-  display: block;
 }
 
 button {
@@ -78,6 +79,7 @@ button {
 
 .contacts-link {
   letter-spacing: 0.02em;
+  color: #434455;
 }
 
 .nav-link:hover,
@@ -87,16 +89,91 @@ button {
   color: #404bbf;
 }
 
-/* Portfolio Section */
-.portfolio-title {
+/* Hero Section */
+.hero {
+  background-color: #2e2f42;
+}
+
+.hero-title {
+  color: #ffffff;
   text-align: center;
 }
 
-.portfolio-subtitle {
-  color: #2E2F42;
+.hero-button {
+  background-color: #4D5AE5;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  border: none;
+}
+
+.hero-button:hover {
+  background-color: #404BBF;
+}
+
+.hero-button:focus {
+  background-color: #404BBF;
+}
+
+/* Features Section */
+.features-subtitle {
+  font-weight: 500;
+  color: #2e2f42;
+}
+
+.features-text {
   letter-spacing: 0.02em;
+}
+
+/* Team Section */
+.team {
+  background-color: #f4f4fd;
+}
+
+.team-title {
+  text-align: center;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+.team-item {
+  background-color: #ffffff;
+}
+
+.team-subtitle {
+  font-weight: 500;
+  color: #2e2f42;
+}
+
+.team-text {
+  letter-spacing: 0.02em;
+}
+
+/* Portfolio Section */
+.portfolio-title {
+  text-align: center;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+.portfolio-subtitle {
+  font-weight: 500;
+  color: #2e2f42;
 }
 
 .portfolio-text {
   letter-spacing: 0.02em;
+}
+
+/* Footer */
+.footer {
+  background-color: #2e2f42;
+}
+
+.footer-text {
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
 }
